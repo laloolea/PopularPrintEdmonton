@@ -16398,7 +16398,9 @@ span.CodeMirror-selectedtext { background: none; }
 	      position: absolute; 
 	      left: 310px; top: 990px;
 
-	 
+	/*
+	 Paso el css del html a este archivo
+	 */
 }
 
 .fill-link1{
@@ -16414,16 +16416,9 @@ span.CodeMirror-selectedtext { background: none; }
           position: absolute; left: 620px;
           top: 990px;
 }
-
 .fill-link:hover{
-  
-   background-image: linear-gradient(rgba(0, 0, 0, 0.2),
-     rgba(0, 0, 0, 0.2)),url("http://s3.amazonaws.com/streetprint/stories/images/000/000/137/small/Meisje_met_de_parel.jpg?1515910968&quot;");
-     
-
-  /*opacity:1;*/
-    
- 
+ background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+     url(http://s3.amazonaws.com/streetprint/stories/images/000/000/137/small/Meisje_met_de_parel.jpg?1515910968);
   
 }
 .fill-link1:hover{
